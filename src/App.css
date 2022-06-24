@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+  padding: 30px;
+}
+
+nav * {
+  padding: 0 40px;
+}
+
+.articlesList {
+  display: flex;
+  flex-direction: row;
+}
+
+.articlesList p {
+  padding: 0px 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+}
+
+input {
+  margin-bottom: 20px;
+}
